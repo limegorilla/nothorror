@@ -1,0 +1,148 @@
+/* Fonts */
+@font-face {
+    font-family: 'ls';
+    src: url('leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: bold;
+
+}
+.nh-MainTitle {
+    font-family: ls;
+    font-weight: 400;
+    padding-top: 15%;
+    text-align: center;
+    color: #fff;
+    font-size: 5em;
+}
+
+.nh-button {
+    font-family: ls;
+    font-weight: 400;
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    width: 200px;
+    border-radius: 100px;
+    background-image: url(buttnbg.png);
+    background-size: 5em;
+    outline: none;
+}
+
+.limegorillaType {
+    font-family: ls;
+    font-weight: 400;
+}
+
+.lime {
+    color: #57ff60;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    }
+
+.footer-left {
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+
+.footer-left-text {
+    padding: 10px;
+}
+
+.footer-right {
+    text-align: right;
+    float: right;
+    width: 50%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+    background-image: linear-gradient(to bottom right, #263068, #2C3979, #32418B, #38499C, #3E50AD, #4458BE, #5567C3);
+    color: #fff;
+}
+
+.footer-right-text {
+    padding-right: 10px;
+    bottom: 0;
+}
+
+.link{
+    color: #fafafa;
+    text-decoration: none;
+    
+}
+.link:hover{
+    text-decoration: underline;
+    transition: 0.55s;
+}
+
+.nh-buttonmiddle {
+    margin: auto;
+    text-align: center;
+    margin: 5em
+}
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+.nh-maincontent {
+    text-align: center;
+    color: #fff;
+    max-width: 30%;
+    margin: auto;
+}
+
+.nh-clist {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.nh-item {
+    display: inline;
+    width: 100%;
+    padding: 2em;;
+}
+
+.maintitlelink {
+    display: block;
+    padding: .5em;
+}
+
+.title {
+    text-align: center;
+}
+
+.bufferlol3 {
+    padding-top: 2em;
+}
