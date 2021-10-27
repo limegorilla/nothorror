@@ -1,0 +1,267 @@
+/* Fonts */
+@font-face {
+    font-family: 'ls';
+    src: url('leaguespartan-bold-webfont.woff2') format('woff2'),
+        url('leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: bold;
+
+}
+
+.limegorillaType {
+    font-family: ls;
+    font-weight: 400;
+}
+
+.lime {
+    color: #57ff60;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    padding: 10em 1em 0 1em;
+}
+
+.main-title {
+    font-family: ls;
+    font-weight: 400;
+    font-size: 7em;
+    margin: 0;
+}
+
+
+
+.title-border {
+    border: solid 20px #fff;
+    padding: 1em;
+    max-width: 50em;
+    margin: auto
+}
+
+.submaintitle {
+    font-family: 'Roboto Mono';
+    font-weight: 200;
+}
+
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    color: #000;
+    margin: 1em 0;
+}
+
+.footer-container {
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+    display: block;
+    overflow: auto;
+    padding: 0.5em 0
+}
+
+.footer-left {
+    float: left;
+    width: 40%;
+    padding: 0 1em;
+}
+
+.footer-right {
+    float: right;
+    width: 40%;
+    padding: 0 1em;
+    text-align: right;
+}
+
+.footertxt {
+    margin: 0;
+    display: inline;
+}
+
+.linktoLG {
+    background-color: #57ff60;
+    color: #000;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.linktoLG:hover {
+    color: #fff;
+    background-color: #48D14F;
+    text-shadow: 2px 2px #8f8f8f;
+}
+
+.footerLnk {
+    color: #000;
+    transition: 0.5s;
+}
+
+.footerLnk:hover {
+    color: #fff;
+    background-color: #000;
+    padding: 0.3em 0.2em;
+}
+
+.bigdb {
+    border-radius: 20em 0 0 20em;
+    margin-right: 6px;
+}
+
+.smalldb {
+    border-radius: 0 20em 20em 0;
+}
+
+.nh-downloadbox {
+    padding: 8em 0;
+
+}
+
+.mainContent {
+    width: 80%;
+    margin: auto;
+    padding: 8em 0;
+}
+
+
+
+.DownloadButton {
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    font-family: ls;
+    font-size: 2em;
+    padding: 1em;
+    text-shadow: 5px 5px #000;
+    text-align: center;
+}
+
+.DownloadButton:hover {
+    background-color: #008cff;
+    color: #000;
+    text-shadow: 2px 2px rgba(73, 73, 73, 0.5);
+    transition: 0.7s;
+}
+
+.nottitle {
+    font-family: 'Alata';
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.mainFloatR {
+    float: right;
+    text-align: center;
+    max-width: 50%;
+}
+
+.mainFloatL {
+    float: left;
+    text-align: center;
+}
+
+.stndLink {
+    color: #fff;
+}
+
+.stndLink:hover {
+    color: #000;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.maintxt {
+    font-size: 1.2em;
+}
+
+.linkContainer {
+    margin: 7em 0 2.4em 0;
+}
+
+.mainMid {
+    text-align: center;
+}
+
+.creatorList {
+    list-style: none;
+    padding: 0;
+    display: inline;
+}
+
+
+
+.clItem {
+    display: inline;
+    font-family: ls;
+    font-size: 7em;
+    font-weight: 400;
+    padding: 1%
+}
+
+.clLink {
+    color: #fff;
+    border: 15px solid #fff;
+    text-decoration: none;
+}
+
+.clLink:hover{
+    background-color: #fff;
+    border: 15px solid #000;
+    transition: 1s;
+    text-shadow: 5px 5px #000;
+}
+
+.ClContainer {
+    padding: 2em;
+}
+
+.liamMOD:hover{
+    color: #57ff60;
+}
+
+.samMOD:hover {
+    color: red;
+}
+
+.noahMOD:hover {
+  color: blue;  
+}
+
+.simonMOD:hover {
+    color: darkmagenta;
+}
+
+@media (max-width: 1500px) {
+    .mainFloatR  {
+        float: none;
+        max-width: 100%;
+        padding-top: 3em;
+    }
+    .mainFloatL{
+        float: none;
+        width 100%;
+    }
+    .mainContent {
+        text-align: center;
+    }
+    .clItem{
+        display: block;
+        padding: 0.25em
+    }
+}
+
+@media (min-width: 2000px){
+    .mainContent{
+        max-width: 60%;
+        margin: auto;
+    }
+}
